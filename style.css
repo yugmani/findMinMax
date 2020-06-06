@@ -1,0 +1,43 @@
+.container {
+    margin:0 auto;
+    width:70%;
+    text-align:center;
+}
+
+        ul {
+            margin:0 auto;
+            list-style: none;
+            text-align:center;
+            padding:0;
+        }
+        ul li {
+            padding-top:10px;
+        }
+        ul >:nth-child(odd) {
+            background-color:gray;   
+        }
+
+        #list {
+            width:60%;
+            margin:0 auto;
+            padding:0;
+            background-color:whitesmoke;
+        }
+
+        #min, #max {
+            width:60%;
+            margin:0 auto;
+            padding:0;
+            color:red;
+            background-color:lightgray;
+        }
+        
+        h1 {
+            width:60%;
+            margin:0 auto;
+            text-align:center;
+            background-color:black;
+            color:white;
+            padding:20px 0px;
+            margin-bottom:20px;
+        }
